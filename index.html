@@ -1,15 +1,72 @@
 <!DOCTYPE html>
 <html>
+
     <head>
-       
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>MyMovieList.com</title>
     </head>
 
     <body>
-        <form>
-            <textarea></textarea>
-            <input type="submit" value="Submit">
+       
+        <h1>Access Entertainment</h1>
+        <h2 class="poweredBy">--Powered by IMDb--</h2>
+        <img src="" alt="">
+            
+        <div id='label'>
+            <label for="criteria">Enter keyword:</label> 
+        </div>
+
+        <br>
+
+        <form id = searchForm>
+            <textarea id="vidTitle" placeholder="Enter info here..."></textarea>
+            <br>
+            <input class="searchButton" type="submit" value="Search">
         </form>
-        <script type="text/javascript" src="index.js"></script> 
+
+        <div id='searchResults' >
+            <!-- After the list populated it give a button to add to watch later --> 
+        </div>
+
+        <br>
+        <br>
+
+        <div class="listsDiv">
+        <div class="list">
+        <h2 class="results">Search Results:</h2>
+
+        <ul id="movieResults">
+            
+        </ul>
+        </div>
+        <div class="list">
+        <h2 class="newlist">Watch List: </h2>
+
+         <ul id="watchList">
+            
+         </ul>
+         </div>
+
+         <div class="list">
+         <h2 class="newlist2">Seen: </h2>
+         <ul class="seenList">
+        
+         </ul>
+         </div>
+         </div>
+
+         <br>
+        <br>
+
+         <div id='name'>
+        </div>
+
+        <script type = text/javascript src="index.js"></script>
+
     </body>
 
 </html>
