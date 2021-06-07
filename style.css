@@ -1,0 +1,191 @@
+form {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 50px;
+    letter-spacing: -1.6px;
+    word-spacing: 2px;
+    color: gold;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.poweredBy {
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 30px;
+    letter-spacing: -1.6px;
+    word-spacing: 2px;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.results, .newlist, .newlist2 {
+    display:flex;
+    text-align: center;
+    color: white;
+}
+
+/* .newlist {
+    text-align: center;
+    color: white;
+}
+.newlist2 {
+    text-align: center;
+    color: white;
+} */
+
+html {
+    background-image: url("https://getreelcinemas.com//wp-content/uploads/2015/02/Background-Narrow.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div#label {
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    letter-spacing: -1.6px;
+    word-spacing: 2px;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+select {
+    display: block;
+    margin: 0 auto;
+}
+
+.searchButton{
+    color: rgb(255, 255, 255); 
+    font-size: 16px; 
+    line-height: 16px; 
+    padding: 6px; 
+    border-radius: 10px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(0,204,0) 0%, rgb(0,204,0) 50%, rgb(0,204,0) 100%); 
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+    border: 2px solid rgb(28, 110, 164); 
+    display: inline-block;
+}
+
+.searchButton:hover {
+    background: rgb(102,255,102)
+}
+
+#movieResults {
+    list-style-type: none;
+    /* text-align: center; */
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0;
+    color: red;
+    font-weight: bold;
+    size: 200px;
+    list-style-type: none;
+    /* border: 2px solid crimson; */
+    /* background-color: rgb(255, 255, 255); */
+    /* opacity: 50%; */
+    flex:1
+}
+
+#watchList {
+    list-style-type: none;
+    /* text-align: center; */
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0;
+    color: rgb(255, 166, 0);
+    font-weight: bolder;
+    list-style-type: none;
+    /* border: 2px solid crimson;
+    background-color: rgb(255, 255, 255); */
+}
+
+.seenList{
+    list-style-type: none;
+    /* text-align: center; */
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0;
+    color: #1EC432;
+    font-weight: bolder;
+    list-style-type: none;
+    /* border: 2px solid crimson;
+    background-color: rgb(255, 255, 255); */
+}
+
+.add {
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.seen {
+    margin-left: 10px;
+}
+
+.list {
+    float: left;
+    width: 33.33%;
+}
+
+.listsDiv:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* .listsDiv {
+    display: flex;
+    justify-content:space-evenly;
+} */
+
+#name{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    position: absolute;
+    bottom: 60px;
+    left: 41%
+}
+
+.groupMember{
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+
+.memImg{
+    width: 100px;
+}
+
+.mainContainer .linkDiv img{
+    width: 20px;
+    height: 20px; 
+    padding-right: 20px;
+    align-content: space-between;
+}
